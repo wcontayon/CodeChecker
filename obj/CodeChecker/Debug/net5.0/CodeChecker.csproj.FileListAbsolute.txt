@@ -1,0 +1,14 @@
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.csprojAssemblyReference.cache
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.AssemblyInfoInputs.cache
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.AssemblyInfo.cs
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.csproj.CoreCompileInputs.cache
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\ref\CodeChecker.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.xml
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker\Debug\net5.0\CodeChecker.pdb
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker\Debug\net5.0\CodeChecker.deps.json
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker\Debug\net5.0\CodeChecker.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker\Debug\net5.0\ref\CodeChecker.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker\Debug\net5.0\CodeChecker.pdb
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker\Debug\net5.0\CodeChecker.xml
