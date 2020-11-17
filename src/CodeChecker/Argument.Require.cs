@@ -4,6 +4,7 @@ namespace CodeChecker
 {
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics.CodeAnalysis;
 
     public sealed partial class Argument
     {
@@ -125,7 +126,7 @@ namespace CodeChecker
             /// <param name="throwException">Exception if true..</param>
             /// <param name="message">Message to show on the exception.</param>
             /// <exception cref="ArgumentException">.</exception>
-            public static bool That(bool condition, bool throwException, string? message) => InternalChecker.True(condition, message, throwException, TYPE, LEVEL);
+            public static bool That(bool condition, [DoesNotReturnIf(true)] bool throwException, string? message) => InternalChecker.True(condition, message, throwException, TYPE, LEVEL);
         }
     }
 }

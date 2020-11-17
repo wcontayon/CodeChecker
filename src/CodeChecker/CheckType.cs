@@ -1,4 +1,5 @@
 ﻿// Copyright (c) HADEM. All rights reserved.
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("CodeChecker.Model.validation")]
 
 namespace CodeChecker
 {

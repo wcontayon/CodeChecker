@@ -29,6 +29,16 @@
       },
       "StyleCop.Analyzers.Unstable/1.2.0.205": {
         "type": "package"
+      },
+      "CodeChecker/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CodeChecker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeChecker.dll": {}
+        }
       }
     }
   },
@@ -230,10 +240,16 @@
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
+    },
+    "CodeChecker/1.0.0": {
+      "type": "project",
+      "path": "../CodeChecker/CodeChecker.csproj",
+      "msbuildProject": "../CodeChecker/CodeChecker.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CodeChecker >= 1.0.0",
       "Nerdbank.GitVersioning >= 3.3.37",
       "Nullable >= 1.3.0",
       "StyleCop.Analyzers >= 1.2.0-beta.205"
@@ -271,7 +287,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Surf7\\source\\repos\\HADEM Nugets\\CodeChecker\\src\\CodeChecker\\CodeChecker.csproj": {
+              "projectPath": "C:\\Users\\Surf7\\source\\repos\\HADEM Nugets\\CodeChecker\\src\\CodeChecker\\CodeChecker.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

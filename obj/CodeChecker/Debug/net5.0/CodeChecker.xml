@@ -9,6 +9,116 @@
             Checker class for argument.
             </summary>
         </member>
+        <member name="T:CodeChecker.Argument.Assume">
+            <summary>
+            Assume check class.
+            </summary>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NotNull``1(``0,System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the value is null.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="value">Value to be tested.</param>
+            <param name="paramName">Name of the parameter.</param>
+            <returns><typeparamref name="T"/> value.</returns>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NotNull``1(System.Nullable{``0},System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the value is null.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="value">Value to be tested.</param>
+            <param name="paramName">Name of the parameter.</param>
+            <returns><typeparamref name="T"/> value.</returns>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NotNullOrEmpty(System.String,System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the value (<see cref="T:System.String"/>) is null or empty.
+            </summary>
+            <param name="value">Value to be tested.</param>
+            <param name="paramName">Name of the parameter.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NotNullOrEmpty``1(System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the values (<see cref="T:System.Collections.Generic.ICollection`1"/>) is null.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="values">Value to be tested.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NotNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the values (<see cref="T:System.Collections.Generic.IEnumerable`1"/>) is null.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="values">Value to be tested.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.Is``1(System.Object,System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the value is not type of <typeparamref name="T"/>.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="value">Value to be tested.</param>
+            <param name="paramName">Name of the parameter.</param>
+            <returns><typeparamref name="T"/> value.</returns>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.Null``1(``0,System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the value is not null.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="value">Value to be tested.</param>
+            <param name="paramName">Name of the parameter.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.Null``1(System.Nullable{``0},System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the value is not null.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="value">Value to be tested.</param>
+            <param name="paramName">Name of the parameter.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NullOrEmpty(System.String,System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the value is not null.
+            </summary>
+            <param name="value">Value to be tested.</param>
+            <param name="paramName">Name of the parameter.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NullOrEmpty``1(System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the values (<see cref="T:System.Collections.Generic.ICollection`1"/>) is not null or empty.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="values">Value to be tested.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.NullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the values (<see cref="T:System.Collections.Generic.IEnumerable`1"/>) is not null or empty.
+            </summary>
+            <typeparam name="T"><typeparamref name="T"/>.</typeparam>
+            <param name="values">Value to be tested.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
+        <member name="M:CodeChecker.Argument.Assume.That(System.Boolean,System.Boolean,System.String)">
+            <summary>
+            Throw an <see cref="T:CodeChecker.InternalCheckException"/> if the condition is false.
+            </summary>
+            <param name="condition">Condition to evaluate.</param>
+            <param name="throwException">Exception if true..</param>
+            <param name="message">Message to show on the exception.</param>
+            <exception cref="T:CodeChecker.InternalCheckException">.</exception>
+        </member>
         <member name="T:CodeChecker.Argument.Require">
             <summary>
             Require check class.
@@ -414,7 +524,7 @@
         </member>
         <member name="T:CodeChecker.InternalCheckException">
             <summary>
-            Internal exception used the <see cref="!:Assume"/> checker.
+            Internal exception used by <see cref="T:CodeChecker.Argument"/>, <see cref="T:CodeChecker.Operation"/> and <see cref="T:CodeChecker.Data"/> checker.
             </summary>
         </member>
         <member name="T:CodeChecker.Operation">
@@ -422,14 +532,22 @@
             Checker class used for operation.
             </summary>
         </member>
+        <member name="M:CodeChecker.Operation.ThrowIf(System.Boolean,System.String)">
+            <summary>
+            Throw an <see cref="T:System.InvalidOperationException"/> if the condition is true.
+            </summary>
+            <param name="condition">Condition to check.</param>
+            <param name="message">The message to show if the exception is throwned.</param>
+            <exception cref="T:System.InvalidOperationException">.</exception>
+        </member>
         <member name="M:CodeChecker.Operation.That(System.Boolean,System.Boolean,System.String)">
             <summary>
-            Throw an <see cref="T:System.Exception"/> if the condition is false.
+            Throw an <see cref="T:System.InvalidOperationException"/> if the condition is false.
             </summary>
             <param name="condition">Condition to evaluate.</param>
             <param name="throwException">Exception if true..</param>
             <param name="message">Message to show on the exception.</param>
-            <exception cref="T:System.Exception">.</exception>
+            <exception cref="T:System.InvalidOperationException">.</exception>
         </member>
         <member name="M:CodeChecker.Operation.True(System.Boolean,System.String,System.Boolean)">
             <summary>
@@ -437,7 +555,7 @@
             </summary>
             <param name="condition">Condition to check.</param>
             <param name="message">The message to show if the exception is throwned.</param>
-            <param name="throwException">Throw an <see cref="T:System.Exception"/> if true.</param>
+            <param name="throwException">Throw an <see cref="T:System.InvalidOperationException"/> if true.</param>
             <returns>True or False.</returns>
         </member>
         <member name="M:CodeChecker.Operation.False(System.Boolean,System.String,System.Boolean)">
@@ -446,17 +564,17 @@
             </summary>
             <param name="condition">Condition to check.</param>
             <param name="message">The message to show if the exception is throwned.</param>
-            <param name="throwException">Throw an <see cref="T:System.Exception"/> if true.</param>
+            <param name="throwException">Throw an <see cref="T:System.InvalidOperationException"/> if true.</param>
             <returns>True or False.</returns>
         </member>
         <member name="M:CodeChecker.Operation.That(System.Func{System.Boolean},System.Boolean,System.String)">
             <summary>
-            Throw an <see cref="T:System.Exception"/> if the condition is false.
+            Throw an <see cref="T:System.InvalidOperationException"/> if the condition is false.
             </summary>
             <param name="function">Function to evaluate.</param>
             <param name="throwException">Exception if true..</param>
             <param name="message">Message to show on the exception.</param>
-            <exception cref="T:System.Exception">.</exception>
+            <exception cref="T:System.InvalidOperationException">.</exception>
         </member>
         <member name="M:CodeChecker.Operation.True(System.Func{System.Boolean},System.String,System.Boolean)">
             <summary>
@@ -464,7 +582,7 @@
             </summary>
             <param name="function">Function to evaluate.</param>
             <param name="message">The message to show if the exception is throwned.</param>
-            <param name="throwException">Throw an <see cref="T:System.Exception"/> if true.</param>
+            <param name="throwException">Throw an <see cref="T:System.InvalidOperationException"/> if true.</param>
             <returns>True or False.</returns>
         </member>
         <member name="M:CodeChecker.Operation.False(System.Func{System.Boolean},System.String,System.Boolean)">
@@ -473,7 +591,7 @@
             </summary>
             <param name="function">Function to evaluate.</param>
             <param name="message">The message to show if the exception is throwned.</param>
-            <param name="throwException">Throw an <see cref="T:System.Exception"/> if true.</param>
+            <param name="throwException">Throw an <see cref="T:System.InvalidOperationException"/> if true.</param>
             <returns>True or False.</returns>
         </member>
     </members>

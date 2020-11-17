@@ -8,11 +8,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChecker", "src\CodeChecker\CodeChecker.csproj", "{346ABA2B-4792-444C-BD9F-70FE33481F7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03E34588-9751-4851-B365-48B50501370D}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChecker.Model.validation", "src\CodeChecker.Model.validation\CodeChecker.Model.validation.csproj", "{9CD0D8E6-021D-4456-8FA4-7868C01604EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChecker.Model.validation", "src\CodeChecker.Model.validation\CodeChecker.Model.validation.csproj", "{9CD0D8E6-021D-4456-8FA4-7868C01604EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DFACD7B9-C334-42AF-97A6-992151349DCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeChecker.Test", "test\CodeChecker.Test\CodeChecker.Test.csproj", "{1CB91963-345D-4E2A-A878-1AAC085BDFD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +49,18 @@ Global
 		{9CD0D8E6-021D-4456-8FA4-7868C01604EE}.Release|x64.Build.0 = Release|Any CPU
 		{9CD0D8E6-021D-4456-8FA4-7868C01604EE}.Release|x86.ActiveCfg = Release|Any CPU
 		{9CD0D8E6-021D-4456-8FA4-7868C01604EE}.Release|x86.Build.0 = Release|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Debug|x64.Build.0 = Debug|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Debug|x86.Build.0 = Debug|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Release|x64.ActiveCfg = Release|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Release|x64.Build.0 = Release|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Release|x86.ActiveCfg = Release|Any CPU
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +68,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{346ABA2B-4792-444C-BD9F-70FE33481F7D} = {C8D85227-130A-4CA6-AA79-3ABDB68D886D}
 		{9CD0D8E6-021D-4456-8FA4-7868C01604EE} = {C8D85227-130A-4CA6-AA79-3ABDB68D886D}
+		{1CB91963-345D-4E2A-A878-1AAC085BDFD2} = {DFACD7B9-C334-42AF-97A6-992151349DCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {489AC97A-B982-469D-837B-BD6D98E7C1BC}

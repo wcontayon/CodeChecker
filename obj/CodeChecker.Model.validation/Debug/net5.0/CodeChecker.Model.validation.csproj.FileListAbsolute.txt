@@ -1,0 +1,15 @@
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.csprojAssemblyReference.cache
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.AssemblyInfoInputs.cache
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.AssemblyInfo.cs
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.csproj.CoreCompileInputs.cache
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.deps.json
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker.Model.validation\Debug\net5.0\ref\CodeChecker.Model.validation.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.pdb
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\bin\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.xml
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.csproj.CopyComplete
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\ref\CodeChecker.Model.validation.dll
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.xml
+C:\Users\Surf7\source\repos\HADEM Nugets\CodeChecker\obj\CodeChecker.Model.validation\Debug\net5.0\CodeChecker.Model.validation.pdb

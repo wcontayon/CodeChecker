@@ -6,7 +6,7 @@ namespace CodeChecker
     using System.Diagnostics;
 
     /// <summary>
-    /// Internal exception used the <see cref="Assume"/> checker.
+    /// Internal exception used by <see cref="Argument"/>, <see cref="Operation"/> and <see cref="Data"/> checker.
     /// </summary>
     [Serializable]
     internal sealed class InternalCheckException : Exception

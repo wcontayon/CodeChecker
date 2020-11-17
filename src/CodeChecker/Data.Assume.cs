@@ -4,6 +4,7 @@ namespace CodeChecker
 {
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics.CodeAnalysis;
 
     public sealed partial class Data
     {
@@ -125,7 +126,7 @@ namespace CodeChecker
             /// <param name="throwException">Exception if true..</param>
             /// <param name="message">Message to show on the exception.</param>
             /// <exception cref="Exception">.</exception>
-            public static bool That(bool condition, bool throwException, string? message) => InternalChecker.True(condition, message, throwException, TYPE, LEVEL);
+            public static bool That(bool condition, [DoesNotReturnIf(true)] bool throwException, string? message) => InternalChecker.True(condition, message, throwException, TYPE, LEVEL);
 
             /// <summary>
             /// Check if the condition is true.
@@ -134,7 +135,7 @@ namespace CodeChecker
             /// <param name="message">The message to show if the exception is throwned.</param>
             /// <param name="throwException">Throw an <see cref="Exception"/> if true.</param>
             /// <returns>True or False.</returns>
-            public static bool True(bool condition, string? message, bool throwException = true) => InternalChecker.True(condition, message, throwException, TYPE, LEVEL);
+            public static bool True(bool condition, string? message, [DoesNotReturnIf(true)] bool throwException = true) => InternalChecker.True(condition, message, throwException, TYPE, LEVEL);
 
             /// <summary>
             /// Check if the condition is false.
@@ -143,7 +144,7 @@ namespace CodeChecker
             /// <param name="message">The message to show if the exception is throwned.</param>
             /// <param name="throwException">Throw an <see cref="Exception"/> if true.</param>
             /// <returns>True or False.</returns>
-            public static bool False(bool condition, string? message, bool throwException = true) => InternalChecker.False(condition, message, throwException, TYPE, LEVEL);
+            public static bool False(bool condition, string? message, [DoesNotReturnIf(true)] bool throwException = true) => InternalChecker.False(condition, message, throwException, TYPE, LEVEL);
         }
     }
 }

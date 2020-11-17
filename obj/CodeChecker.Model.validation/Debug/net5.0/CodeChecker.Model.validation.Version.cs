@@ -9,8 +9,8 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.0")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.5654")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0+1616f64d7a")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.44637")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0+5dae76b429")]
 #if NETSTANDARD || NETFRAMEWORK || NETCOREAPP
 [System.CodeDom.Compiler.GeneratedCode("Nerdbank.GitVersioning.Tasks","3.3.37.35081")]
 #endif
@@ -19,14 +19,14 @@
 #endif
 internal static partial class ThisAssembly {
     internal const string AssemblyVersion = "0.0.0.0";
-    internal const string AssemblyFileVersion = "0.0.0.5654";
-    internal const string AssemblyInformationalVersion = "0.0.0+1616f64d7a";
+    internal const string AssemblyFileVersion = "0.0.0.44637";
+    internal const string AssemblyInformationalVersion = "0.0.0+5dae76b429";
     internal const string AssemblyName = "CodeChecker.Model.validation";
     internal const string AssemblyTitle = "CodeChecker.Model.validation";
     internal const string AssemblyConfiguration = "Debug";
-    internal const string GitCommitId = "1616f64d7a4baefc1bdccf8f3aaffb15b8290c56";
+    internal const string GitCommitId = "5dae76b429b56b28ac2fffef8fcf72e5d50bb464";
     internal const bool IsPublicRelease = false;
     internal const bool IsPrerelease = false;
-    internal static readonly System.DateTime GitCommitDate = new System.DateTime(637408143030000000L, System.DateTimeKind.Utc);
+    internal static readonly System.DateTime GitCommitDate = new System.DateTime(637411582990000000L, System.DateTimeKind.Utc);
     internal const string RootNamespace = "CodeChecker.Model.validation";
 }
