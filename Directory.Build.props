@@ -16,11 +16,12 @@
     <Authors>Comlan William CONTAYON</Authors>
     <Copyright>© Comlan William CONTAYON / HADEM. All rights reserved.</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/wcontayon/CodeChecker</PackageProjectUrl>
+    <RepositoryType>github</RepositoryType>
     <RepositoryUrl>https://github.com/wcontayon/CodeChecker</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
